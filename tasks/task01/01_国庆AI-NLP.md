@@ -40,5 +40,28 @@ wsl --install Ubuntu--22.04
 ![输入用户名](resources/输入用户名.png)
 4: 修改主机名称为自己学号
 ![修改主机名字](resources/set_hostname.png)
-5： 输入exit退出系统。
-abcdefg
+5：输入exit退出系统。
+### 在VSCode以及WSL上面设置git以及github：
+- VSCode上的github设置：
+1：首先在VSCode上下载git，以将工作区的内容commit -a到本地仓库。
+2：利用ssd，在github上面设置公钥，然后在终端上面git config，再git push将本地仓库的内容上传到github。
+- WSL上面的github设置：
+1：输入cd进入主目录，在WSL上设置密钥。
+![设置密钥](resources/ssd密钥设置.png)
+2： 查看公钥，并且上传到github，并测试。
+![查看公钥](resources/查看公钥.png)
+3:在WSL上面输入邮箱和用户名。
+![设置邮箱和用户名](resources/邮箱与用户名.png)
+4： 利用clone来克隆github上面的项目，同时初始化本地仓库，储存clone的内容。
+5：利用vim修改markdown，然后再用add . commit-m push到github
+![修改后上传](resources/上传修改后的内容.png)
+- 其中的代码使用有：
+```
+1:cd pwd ls
+2:ssh-keygen
+3:cat
+4:git config
+5:git clone
+6: git init
+7:git add . git commit -m git push origin main
+```

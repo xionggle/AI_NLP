@@ -65,3 +65,12 @@ wsl --install Ubuntu--22.04
 6: git init
 7:git add . git commit -m git push origin main
 ```
+**[github的链接](https://github.com/xionggle/AI_NLP/)**
+---
+---
+## 第三个任务：AI的环境配置：
+==以下内容，全部用自己家的台式机进行配置，只能在家使用，笔记本则会用autodl进行租聘。==
+- 环境配置报告：
+GPU型号：NVIDIA GeForce RTX 5070Ti
+驱动版本：581.42
+PyTorch版本：12.6.3

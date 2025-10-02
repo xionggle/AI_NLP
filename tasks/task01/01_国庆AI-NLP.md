@@ -41,3 +41,4 @@ wsl --install Ubuntu--22.04
 4: 修改主机名称为自己学号
 ![修改主机名字](resources/set_hostname.png)
 5： 输入exit退出系统。
+abcdefg

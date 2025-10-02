@@ -37,7 +37,7 @@ wsl --list --online
 wsl --install Ubuntu--22.04
 输入用户名
 ```
-![输入用户名](resource/输入用户名.png)
+![输入用户名](resources/输入用户名.png)
 4: 修改主机名称为自己学号
-![修改主机名字](resource/set_hostname.png)
+![修改主机名字](resources/set_hostname.png)
 5： 输入exit退出系统。
